@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import { NavLink } from 'react-router-dom';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import {Paper } from '@material-ui/core';
+import tdz from "../src/Images/Tdz.png";
 const Service = () =>{
     const theme = createMuiTheme({
       palette:{
@@ -15,7 +16,7 @@ const Service = () =>{
         return( 
     <>
 <ThemeProvider theme={theme}>
-    <Paper style={{}}>
+    <Paper >
     <Navbar/>
     
 
@@ -42,13 +43,19 @@ const Service = () =>{
          <div className="container-fluid mb-4 " >
          <div class="flex-container bg-dark" >
   <div className="child ">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn">Designing <ArrowForwardIcon/></NavLink>
+  <NavLink to="" className="btn btn-light mx-4 "className="btn"> <img src={tdz} className="img-fluid rounded mx-auto d-block h-15 w-25 " alt="img"/>Designing <ArrowForwardIcon/></NavLink>
   </div>
   <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn" >Development <ArrowForwardIcon/></NavLink>
+  <NavLink to="" className="btn btn-light mx-4 "className="btn" > 
+    
+  <img src={tdz} className="img-fluid rounded mx-auto d-block h-15 w-25 " alt="img"/>
+  Development <ArrowForwardIcon/></NavLink>
   </div>
   <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn" >Designing <ArrowForwardIcon/></NavLink>
+  <NavLink to="" className="btn btn-light mx-4 "className="btn" >
+    
+  <img src={tdz} className="img-fluid rounded mx-auto d-block h-15 w-25 " alt="img"/>
+  Designing <ArrowForwardIcon/></NavLink>
   </div>
 </div>
          </div>

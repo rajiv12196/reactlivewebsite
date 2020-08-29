@@ -2,11 +2,20 @@ import React  from 'react';
 import web from "../src/Images/logo.jpg"
 import { NavLink } from 'react-router-dom';
 import tdz from "../src/Images/Tdz.png";
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import {Paper } from '@material-ui/core';
 
 const Common = (props) =>{
     
+  const theme = createMuiTheme({
+    palette:{
+       type:"dark",
+    },
+  });
     return( 
     <>
+    <ThemeProvider theme={theme}>
+    <Paper >
      <div className="parent_div">
   <div className="child_div">
   
@@ -26,7 +35,8 @@ const Common = (props) =>{
   </div>
 </div>
      
-
+</Paper>
+    </ThemeProvider>
     </>);
 };
 export default Common;

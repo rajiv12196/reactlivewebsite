@@ -5,7 +5,7 @@ const Contact = () =>{
     return( 
     <>
      <section id="/#contact">
-     <div classNameName="my-5 ">
+    
      <h1 className="text-center"> Contact us</h1>
 
          <div className="container contact_div">
@@ -13,26 +13,26 @@ const Contact = () =>{
              <div className="col-md-6 col-10 mx-auto " >
              <form>
   <div className="form-row form left">
-    <div className="col-md-6 mb-3" >
+    <div className="col-md-6 " >
       <label for="validationDefault01">First name</label>
       <input type="text" className="form-control" id="validationDefault01" placeholder="first name"/>
     </div>
-    <div className="col-md-6 mb-3">
+    <div className="col-md-6  pb-3">
       <label for="validationDefault02">Last name</label>
       <input type="text" className="form-control" id="validationDefault02" placeholder="last name" />
     </div>
   </div>
   <div className="form-row">
-    <div className="col-md-6 mb-3">
+    <div className="col-md-6  pb-3">
       <label for="validationDefault03">Email address</label>
       <input type="email" className="form-control" id="validationDefault03" required/>
     </div>
-    <div className="col-md-3 mb-3">
+    <div className="col-md-3  pb-3">
       <label for="validationDefault05">Mobile number</label>
       <input type="tel" className="form-control" id="validationDefault05" />
     </div>
   </div>
-    <div className="col-md-3 mb-3">
+    <div className="col-md-3  pb-3">
       <label for="validationDefault04">project select</label>
       <select className="custom-select" id="validationDefault04" required>
         <option selected disabled value="">Choose...</option>
@@ -40,7 +40,7 @@ const Contact = () =>{
       </select>
     </div>
     
-    <div class="form-group">
+    <div class="form-group pb-3">
     <label for="exampleFormControlTextarea1">Project description</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
@@ -50,7 +50,7 @@ const Contact = () =>{
          </div>
 
          </div>
-     </div>
+     
 </section>
     </>);
 };

@@ -7,14 +7,14 @@
   }
   
   .parent_div{
-    width: 80vw;
-    height: 80vh;
-    background-color:black;
+    width: 100vw;
+    height: 100vh;
+   
     display: flex;
     justify-content: center;
    align-items: center;
-   border: 3px solid green;
-   margin-left: 120px;
+   
+  
   
   
   }
@@ -22,7 +22,6 @@
   .child_div {
    width: 60vw;
    height: 60vh;
-   background-color: white; 
   
   }
   
@@ -76,14 +75,12 @@
     align-items: center;
   }
   .parent_div1{
-    width: 80vw;
-    height: 80vh;
-    background-color:black;
+    width: 100vw;
+    height: 100vh;
+    
     display: flex;
     justify-content: center;
    align-items: center;
-   border: 3px solid green;
-   margin-left: 120px;
   
   
   }
@@ -91,7 +88,6 @@
   .child_div1 {
    width: 30vw;
    height: 80vh;
-   background-color:white; 
    
    
    -ms-transform: rotate(90deg); /* IE 9 */
