@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/reactlivewebsite/static/css/main.c81c3934.chunk.css",
-    "main.js": "/reactlivewebsite/static/js/main.4d4bf5d5.chunk.js",
-    "main.js.map": "/reactlivewebsite/static/js/main.4d4bf5d5.chunk.js.map",
+    "main.css": "/reactlivewebsite/static/css/main.c030b28e.chunk.css",
+    "main.js": "/reactlivewebsite/static/js/main.efa4ae68.chunk.js",
+    "main.js.map": "/reactlivewebsite/static/js/main.efa4ae68.chunk.js.map",
     "runtime-main.js": "/reactlivewebsite/static/js/runtime-main.2a28c33f.js",
     "runtime-main.js.map": "/reactlivewebsite/static/js/runtime-main.2a28c33f.js.map",
     "static/css/2.75c4ecca.chunk.css": "/reactlivewebsite/static/css/2.75c4ecca.chunk.css",
-    "static/js/2.824e7ade.chunk.js": "/reactlivewebsite/static/js/2.824e7ade.chunk.js",
-    "static/js/2.824e7ade.chunk.js.map": "/reactlivewebsite/static/js/2.824e7ade.chunk.js.map",
+    "static/js/2.be4f3bc9.chunk.js": "/reactlivewebsite/static/js/2.be4f3bc9.chunk.js",
+    "static/js/2.be4f3bc9.chunk.js.map": "/reactlivewebsite/static/js/2.be4f3bc9.chunk.js.map",
     "index.html": "/reactlivewebsite/index.html",
-    "precache-manifest.9afa22590b5131803a98d5258467a381.js": "/reactlivewebsite/precache-manifest.9afa22590b5131803a98d5258467a381.js",
+    "precache-manifest.f0b1d3e82e45fead3c92f5be53cc333d.js": "/reactlivewebsite/precache-manifest.f0b1d3e82e45fead3c92f5be53cc333d.js",
     "service-worker.js": "/reactlivewebsite/service-worker.js",
     "static/css/2.75c4ecca.chunk.css.map": "/reactlivewebsite/static/css/2.75c4ecca.chunk.css.map",
-    "static/css/main.c81c3934.chunk.css.map": "/reactlivewebsite/static/css/main.c81c3934.chunk.css.map",
-    "static/js/2.824e7ade.chunk.js.LICENSE.txt": "/reactlivewebsite/static/js/2.824e7ade.chunk.js.LICENSE.txt",
+    "static/css/main.c030b28e.chunk.css.map": "/reactlivewebsite/static/css/main.c030b28e.chunk.css.map",
+    "static/js/2.be4f3bc9.chunk.js.LICENSE.txt": "/reactlivewebsite/static/js/2.be4f3bc9.chunk.js.LICENSE.txt",
     "static/media/Tdz.png": "/reactlivewebsite/static/media/Tdz.52dcd0a4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2a28c33f.js",
     "static/css/2.75c4ecca.chunk.css",
-    "static/js/2.824e7ade.chunk.js",
-    "static/css/main.c81c3934.chunk.css",
-    "static/js/main.4d4bf5d5.chunk.js"
+    "static/js/2.be4f3bc9.chunk.js",
+    "static/css/main.c030b28e.chunk.css",
+    "static/js/main.efa4ae68.chunk.js"
   ]
 }
