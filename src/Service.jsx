@@ -1,12 +1,13 @@
 import React  from 'react';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Navbar from "./Navbar";
 import Call from "./Call";
 import Contact from "./Contact";
 import { NavLink } from 'react-router-dom';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import {Paper } from '@material-ui/core';
-import tdz from "../src/Images/Tdz.png";
+
+import Sdata from "./Sdata";
+import Card from "./Card";
 const Service = () =>{
     const theme = createMuiTheme({
       palette:{
@@ -19,11 +20,8 @@ const Service = () =>{
     <Paper >
     <Navbar/>
     
-
-   
-     <div className="my-4">
-    
-        <div className="row">
+    <div className="my-3">
+    <div className="row">
         <div className="col-10 mx-auto">
         <div className="container-fluid mb-4 ">
          
@@ -34,35 +32,31 @@ const Service = () =>{
      </div>
      </div>
      </div>
-     </div>
+
+</div>
+<div className="container-fluid mb-5" >
+<div className="row">
+<div className="col-10 mx-auto">
+<div className="row gy-4">
+{
+    Sdata.map((val,ind)=>{
+        return <Card key={ind}
+            imgsrc={val.imgsrc}
+            title={val.title}
+        />
+
+
+    }  )
+}  
+</div>
+</div>
+</div>
+</div>
+
+   
+     
      
     
-        <div className="row">
-        <div className="col-10 mx-auto">
-         <div className="row gy-4">
-         <div className="container-fluid mb-4 " >
-         <div class="flex-container bg-dark" >
-  <div className="child ">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn"> <img src={tdz} className="img-fluid rounded mx-auto d-block h-15 w-25 " alt="img"/>Designing <ArrowForwardIcon/></NavLink>
-  </div>
-  <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn" > 
-    
-  <img src={tdz} className="img-fluid rounded mx-auto d-block h-15 w-25 " alt="img"/>
-  Development <ArrowForwardIcon/></NavLink>
-  </div>
-  <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn" >
-    
-  <img src={tdz} className="img-fluid rounded mx-auto d-block h-15 w-25 " alt="img"/>
-  Designing <ArrowForwardIcon/></NavLink>
-  </div>
-</div>
-         </div>
-        </div>
-        </div>
-    </div>
-
      
      <div className="my-4">
      <div className="container-fluid mb-4">
@@ -79,30 +73,24 @@ const Service = () =>{
         </div>
        
      
-     <div className="container-fluid mb-5">
-        <div className="row">
-        <div className="col-10 mx-auto">
-        <p className="text-center"><strong>Our Products</strong></p>
-         <div className="row gy-4">
-         <div class="flex-container bg-dark">
-       
-        
-         <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn">Website Growvation <ArrowForwardIcon/></NavLink>
-  </div>
- 
-  <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 "className="btn">App Indian Defence force <ArrowForwardIcon/></NavLink>
-  </div>
-  <div className="child">
-  <NavLink to="" className="btn btn-light mx-4 " className="btn">Learn App <ArrowForwardIcon/></NavLink>
-  </div>
+        <div className="container-fluid mb-5">
+<div className="row">
+<div className="col-10 mx-auto">
+<div className="row gy-4">
+{
+    Sdata.map((val,ind)=>{
+        return <Card key={ind}
+            imgsrc={val.imgsrc}
+            title={val.title}
+        />
+
+
+    }  )
+}  
 </div>
-         </div>
-        </div>
-        </div>
-    </div>
-    
+</div>
+</div>
+</div>
      <Call/>
      <Contact/>
      </Paper>
