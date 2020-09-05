@@ -15,14 +15,14 @@ const breakPoints =[
 function MultiCarouselPage() {
   return (
     <>
-    
-      <h1  className="client">Our client speaks talks</h1>
-      <div className="test">
+    <h2 style={{textAlign:"center"}}>Client Speaks talks</h2>
+      
         <Carousel breakPoints={breakPoints}>
           <Item>
          
-   
-    <div className="owl-carousel owl-carousel1 owl-theme " className="gtco-testimonials">
+          <div className="gtco-testimonials">
+    
+    <div className="owl-carousel owl-carousel1 owl-theme " className="">
       <div>
         <div className="card text-center"><img className="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""/>
           <div className="card-body">
@@ -32,6 +32,7 @@ function MultiCarouselPage() {
               impedit quo minus id quod maxime placeat ” </p>
           </div>
         </div>
+      </div>
       </div>
       </div>
         </Item>
@@ -120,7 +121,7 @@ function MultiCarouselPage() {
       </div>
       </div></Item>
         </Carousel>
-      </div>
+      
     </>
   );
 };
