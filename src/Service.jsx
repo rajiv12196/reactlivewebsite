@@ -8,6 +8,8 @@ import {Paper } from '@material-ui/core';
 
 import Sdata from "./Sdata";
 import Card from "./Card";
+import MultiCarouselPage from "./MultiCarouselPage";
+
 const Service = () =>{
     const theme = createMuiTheme({
       palette:{
@@ -92,6 +94,7 @@ const Service = () =>{
 </div>
 </div>
      <Call/>
+     <MultiCarouselPage/>
      <Contact/>
      </Paper>
     </ThemeProvider>

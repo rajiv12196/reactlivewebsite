@@ -11,16 +11,25 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^5.0.0-alpha1",
     "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "mdbreact": "^4.27.0",
+    "owl.carousel": "^2.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-elastic-carousel": "^0.7.5",
+    "react-multi-carousel": "^2.5.5",
+    "react-owl-carousel": "^2.3.1",
+    "react-responsive-carousel": "^3.2.9",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "react-slick": "^0.27.10",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
