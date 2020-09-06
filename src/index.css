@@ -79,26 +79,7 @@
     justify-content: center;
     align-items: center;
   }
-  .parent_div1{
-    width: 100vw;
-    height: 100vh;
-    
-    display: flex;
-    justify-content: center;
-   align-items: center;
-  
-  
-  }
-  
-  .child_div1 {
-   width: 30vw;
-   height: 80vh;
-   
-   
-   -ms-transform: rotate(90deg); /* IE 9 */
-   transform: rotate(90deg);
-  
-  }
+ 
   
 p{
  text-align: justify;
@@ -230,4 +211,17 @@ p{
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
   outline: 0;
+}
+ .tab1{
+   width: 100vw;
+   background-color: grey;
+   height: 100vh;
+ }
+ .main-footer {
+  color: white;
+  background-color: black;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }

@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import { NavLink } from 'react-router-dom';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import {Paper } from '@material-ui/core';
-
+import Footercol from "./Footercol";
 import Sdata from "./Sdata";
 import Card from "./Card";
 import MultiCarouselPage from "./MultiCarouselPage";
@@ -96,6 +96,7 @@ const Service = () =>{
      <Call/>
      <MultiCarouselPage/>
      <Contact/>
+    <Footercol/>
      </Paper>
     </ThemeProvider>
     </>);

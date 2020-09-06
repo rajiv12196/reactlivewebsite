@@ -15,11 +15,11 @@ const Contact = () =>{
   <div className="form-row form left">
     <div className="col-md-6 " >
       <label for="validationDefault01">First name</label>
-      <input type="text" className="form-control" id="validationDefault01" placeholder="first name"/>
+      <input type="text" className="form-control" id="validationDefault01" />
     </div>
     <div className="col-md-6  pb-3">
       <label for="validationDefault02">Last name</label>
-      <input type="text" className="form-control" id="validationDefault02" placeholder="last name" />
+      <input type="text" className="form-control" id="validationDefault02"  />
     </div>
   </div>
   <div className="form-row">
