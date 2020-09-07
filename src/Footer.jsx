@@ -10,7 +10,7 @@ function Footer() {
           {/* Column1 */}
           <div className="col">
             <h4>Social Network</h4>
-            <ui className="list-unstyled">
+            <ui className="list-unstyled ">
               <li><TwitterIcon/>Twitter</li>
               <li><WhatsAppIcon/>WhatsApp</li>
               <li><FacebookIcon/>Facebook</li>

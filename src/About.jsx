@@ -96,10 +96,24 @@ export default function FullWidthTabs() {
          </div>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
-          Item Two
+        <div className="Container">
+         <img src={web1} alt="..." className="img-thumbnail rounded float-left w-25 h-25"/>
+         <h2> Logo Design</h2>
+         <br></br><hr></hr>
+         <br></br>
+        
+         <h2> Price:         to  </h2>
+         </div>
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Item Three
+        <div className="Container">
+         <img src={web1} alt="..." className="img-thumbnail rounded float-left w-25 h-25"/>
+         <h2> UI /UX Design</h2>
+         <br></br><hr></hr>
+         <br></br>
+        
+         <h2> Price:         to  </h2>
+         </div>
         </TabPanel>
       </SwipeableViews>
     </div>

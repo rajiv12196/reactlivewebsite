@@ -14,22 +14,22 @@ const Contact = () =>{
              <form>
   <div className="form-row form left">
     <div className="col-md-6 " >
-      <label for="validationDefault01">First name</label>
-      <input type="text" className="form-control" id="validationDefault01" />
+      <label for="validationDefault01"></label>
+      <input type="text" className="form-control" id="validationDefault01" placeholder="First Name" />
     </div>
     <div className="col-md-6  pb-3">
-      <label for="validationDefault02">Last name</label>
-      <input type="text" className="form-control" id="validationDefault02"  />
+      <label for="validationDefault02"></label>
+      <input type="text" className="form-control" id="validationDefault02" placeholder="Last Name" />
     </div>
   </div>
   <div className="form-row">
     <div className="col-md-6  pb-3">
-      <label for="validationDefault03">Email address</label>
-      <input type="email" className="form-control" id="validationDefault03" required/>
+      <label for="validationDefault03"></label>
+      <input type="email" className="form-control" id="validationDefault03" placeholder="Email Address" required/>
     </div>
     <div className="col-md-3  pb-3">
-      <label for="validationDefault05">Mobile number</label>
-      <input type="tel" className="form-control" id="validationDefault05" />
+      <label for="validationDefault05"></label>
+      <input type="tel" className="form-control" id="validationDefault05" placeholder="Mobile number" />
     </div>
   </div>
     <div className="col-md-3  pb-3">
@@ -41,8 +41,8 @@ const Contact = () =>{
     </div>
     
     <div class="form-group pb-3">
-    <label for="exampleFormControlTextarea1">Project description</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Project description" rows="3"></textarea>
   </div>
   <button className="btn btn-primary" type="submit">Submit form</button>
 </form>
